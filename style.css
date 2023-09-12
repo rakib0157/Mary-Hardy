@@ -1,0 +1,286 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1600px;
+
+}
+#header{
+    background-color:#FFF8F3;
+    height: 837px;
+    background-image: url(./images/Developer.png), url(./images/bg1.png);
+    background-repeat: no-repeat;
+    background-position: 23px 38px, right bottom;
+   
+}
+.header-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px;
+
+}
+.brand-name > h2{
+    font-size: 45px;
+    
+}
+.marry-r{
+    color: #FD6E0A;
+}
+.navigation-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navigation-container > ul{
+    display: flex;
+    gap: 50px;
+}
+.navigation-container > ul > li > a{
+    color: #474747;
+}
+.header-btn{
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+/*========================== Banner section code start  ====================*/
+
+.banner-container{
+    /* padding: 0px 230px; */
+    padding-left: 230px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.hi{
+    font-size: 45px;
+    font-weight: 600;
+}
+.my-heading{
+    font-size: 85px;
+    color: #181818;
+    
+}
+.my-p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.banner-btn-container{
+    display: flex;
+    gap: 30px;
+    
+}
+.cv-btn{
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+.contact-btn{
+    width: 160px;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+}
+.right-banner{ 
+    margin-top: -3px;
+}
+/*========================== Banner section code end  ====================*/
+/*========================== about me section start  =====================*/
+.about-me-container{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin: 130px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-contents{
+    width: 827px;
+    height: 288px;
+    padding: 5px;
+}
+.section-heading{
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    
+}
+.about-me-p{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+.p-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-align: center;
+}
+.personal-info{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*========================== about me section end  =====================*/
+
+/*========================= what i do section start  ===================*/
+.what-ido-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.card{
+    width: 267px;
+    height: 377px;
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+.card-title{
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.card-p{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+/*========================= what i do section end  ===================*/
+
+/*======================== resume section start  ======================*/
+.resume-container{
+    max-width: 1140px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.resume-heading{
+    font-size: 30px;
+    color: #474747;
+    text-align: center;
+
+
+}
+.resume-card{
+    width: 511px;
+    height: 175px;
+
+}
+.resume-card-title{
+    font-size: 25px;
+    color: #474747;
+    margin: 10px 0px;
+}
+.time-table{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    margin: 20px 0px;
+}
+.resume-hr{
+    background-color: #d1d1d1;
+    height: 1px;
+    margin: 30px 0px;
+}
+.cv-btn-container{
+    text-align: center;
+    margin-bottom: 86px;
+}
+/*======================== resume section end  ======================*/
+/*======================== footer start  =======================*/
+#footer{
+    max-width: 1600px;
+    height: 700px;
+    background: #FFF8F3;
+}
+.footer-container{
+    max-width:1140px;
+    height: 600px;
+    margin:0 auto;
+    padding-top: 130px;
+    display: flex;
+    gap: 50px;
+    
+}
+.footer-heading{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.te{
+    width: 461px;
+    height: 60px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    padding: 0px 30px;
+}
+textarea{
+    width: 461px;
+    height: 180px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 18px 30px;
+    font-size: 16px;
+
+}
+.submit-btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FD6E0A;
+    margin-top: 24px;
+    color: #ffffff;
+    font-size: 18px;
+}
+/*======================== footer end  =======================*/
